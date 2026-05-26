@@ -472,10 +472,10 @@ nav ul li:hover {
 
 .skills-bg {
     position: absolute;
-    top: 35px;
-    right: -30px;
+    top: 70px;
+    right: 80px;
     font-family: 'Bodoni Moda', serif;
-    font-size: 10rem;
+    font-size: 9rem;
     font-weight: 500;
     letter-spacing: 1rem;
     color: #D4CDBF;
@@ -568,4 +568,231 @@ nav ul li:hover {
     letter-spacing: 2px;
     text-transform: uppercase;
     color:#D5692D;
+}
+
+/* Project section */
+
+.projects-section{
+    padding:8rem 6%;
+    position:relative;
+    overflow:hidden;
+}
+
+.projects-bg{
+    position:absolute;
+    right: 2%;
+    top:40px;
+    font-family:'Bodoni Moda', serif;
+    font-size:10rem;
+    letter-spacing:1rem;
+    color:#D4CDBF;
+    opacity:0.18;
+    pointer-events:none;
+}
+
+.projects-heading{
+    font-family:'Bodoni Moda', serif;
+    font-size:3.5rem;
+    line-height:0.95;
+    max-width:850px;
+    margin:1rem 0 3rem;
+    color:#492215;
+}
+
+.projects-divider{
+    width:100%;
+    height:1px;
+    background:#C6A181;
+    opacity:0.6;
+    margin-bottom:5rem;
+}
+
+.project-row{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:5rem;
+    align-items:center;
+    margin-bottom:8rem;
+}
+
+.project-row.reverse{
+    direction:rtl;
+}
+
+.project-row.reverse .project-content{
+    direction:ltr;
+}
+
+.project-image img{
+    width:100%;
+    border-radius:24px;
+    display:block;
+    max-width: 550px;
+    height: 380px;
+    object-fit: cover;
+}
+
+.project-image.placeholder{
+    height:420px;
+    border:1px dashed #C6A181;
+    border-radius:24px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    color:#9C6342;
+    font-family:'Outfit', sans-serif;
+}
+
+.project-number{
+    color:#D5692D;
+    letter-spacing:4px;
+    font-size:1rem;
+    font-weight: 600;
+}
+
+.project-content h3{
+    font-family:'Cormorant Garamond', serif;
+    font-size:3.5rem;
+    margin:1rem 0;
+    color: #492215;
+}
+
+.project-category{
+    color:#9C6342;
+    text-transform:uppercase;
+    letter-spacing:2px;
+    font-size:0.8rem;
+    margin-bottom:1.5rem;
+}
+
+.project-content p{
+    line-height:1.8;
+    color:#6f554b;
+    max-width: 500px;
+    font-size: 1rem;
+
+}
+
+.project-link{
+    display:inline-block;
+    margin-top:2rem;
+    text-decoration:none;
+    color:#492215;
+    border-bottom:1px solid #492215;
+    padding-bottom:4px;
+}
+
+/* Contact Section*/
+
+.contact-section{
+    padding:6rem 6%;
+    background:#492215;
+    color:#F7F1E8;
+    position:relative;
+    overflow:hidden;
+}
+
+.contact-bg{
+    position:absolute;
+    top:40px;
+    right:3%;
+    font-family:'Bodoni Moda', serif;
+    font-size:7rem;
+    letter-spacing:0.7rem;
+    color:#F7F1E8;
+    opacity:0.04;
+    pointer-events:none;
+}
+
+.contact-label{
+    font-family:'Outfit', sans-serif;
+    font-size:0.75rem;
+    letter-spacing:5px;
+    color:#C6A181;
+}
+
+.contact-heading{
+    font-family:'Bodoni Moda', serif;
+    font-size:4rem;
+    line-height:0.95;
+    font-weight:500;
+    max-width:800px;
+    margin:1.5rem 0;
+}
+
+.contact-text{
+    max-width:560px;
+    line-height:1.9;
+    color:#d8c6bb;
+}
+
+.contact-links{
+    display:flex;
+    gap:1rem;
+    margin-top:3.5rem;
+    flex-wrap:wrap;
+}
+
+.contact-links a{
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    padding:1rem 2rem;
+    border:1px solid #C6A181;
+    border-radius:50px;
+    text-decoration:none;
+    color:#F7F1E8;
+    font-family:'Outfit', sans-serif;
+    font-size:0.8rem;
+    letter-spacing:2px;
+    text-transform:uppercase;
+    transition:0.3s ease;
+}
+
+.contact-links a:hover {
+    background:#F7F1E8;
+    color:#492215;
+    transform:translateY(-3px);
+}
+
+.contact-links a:first-child{
+    background:#c6a181;
+    color:#492215;
+    border:none;
+}
+
+.contact-links a:first-child:hover{
+    background:#cbb6aa;
+    color: #9C6342;
+}
+
+.footer{
+    background:#492215;
+    padding:0 6% 2rem;
+}
+
+.footer-line{
+    height:1px;
+    background:rgba(198,161,129,0.3);
+    margin-bottom:2rem;
+}
+
+.footer-content{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.footer-left{
+    font-family:'Birthstone', cursive;
+    font-size:1.2rem;
+    color:#F7F1E8;
+    letter-spacing: 0.4rem;
+}
+
+.footer-right{
+    font-size:0.75rem;
+    letter-spacing:2px;
+    text-transform:uppercase;
+    color:#C6A181;
 }
