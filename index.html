@@ -10,6 +10,8 @@
     <title>Dorcas Portfolio</title>
 
     <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Birthstone&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:wght@400;500;600&display=swap" rel="stylesheet">
 
 </head>
 
@@ -23,19 +25,21 @@
 
         <nav>
 
-            <h2>DM.</h2>
+            <a href="#home" class="logo">
+            <img src="images/logo.png.png" alt="DK logo">
+            </a>
 
             <ul>
 
-                <li>Home</li>
+                <li><a href="#home">Home</a></li>
 
-                <li>About</li>
+                <li><a href="about">About</a></li>
 
-                <li>Skills</li>
+                <li><a href="#skills">Skills</a></li>
 
-                <li>Projects</li>
+                <li><a href="#projects">Projects</a></li>
 
-                <li>Contact</li>
+                <li><a href="#contact">Contact</a></li>
 
             </ul>
 
@@ -53,35 +57,80 @@
 
 
 
-        <!-- Hero Section -->
+<!-- Hero Section -->
+<h2 class="bg-title">PORTFOLIO</h2>
+<section id="hero">
+    <span class="hero-year">PORTFOLIO 2026</span>
 
-        <section id="hero">
+    <div class="hero-box">
 
-            <h1>Hello, I'm Dorcas.</h1>
+        <div class="hero-left">
+            <h1>Dorcas M. Kyule</h1>
+            <div class="hero-line"></div>
+            <p class="hero-tag">Creative Developer · Designer · Strategist</p>
 
-            <p>
-                I’m currently learning frontend development by building projects that challenge my creativity, improve my problem-solving skills, and help me understand how modern websites are designed and structured.
+             <p class="hero-subtext">
+                Creating elegant digital experiences through design,
+                development, and intentional storytelling.
             </p>
 
-            <button>View My Projects</button>
+            <div class="hero-buttons">
+                <a href="#projects" class="primary-btn">Selected Work</a>
+                <a href="#about" class="secondary-btn">About Me</a>
+            </div>
 
-        </section>
+            <p class="scroll-hint">↓ scroll to explore</p>
+
+        </div>
+       
+
+        <div class="hero-right">
+            <div class="image-frame">
+                <img src="images/hero.png.jpeg" alt="Dorcas portrait" />
+            </div>
+        </div>
+
+    </div>
+
+</section>
+</section>
 
 
+       <section id="about" class="about-section">
 
+    <div class="about-label">Thoughtful design.
+    Intentional experiences.</div>
 
+    <div class="about-wrapper">
 
-        <!-- About Section -->
+        <div class="about-left">
+            <h2>
+    Design-minded.<br>
+    <span>Tech-curious.</span><br>
+    Detail-led.
+</h2>
+        </div>
 
-        <section id="about">
-
-            <h2>About Me</h2>
-
+        <div class="about-right">
             <p>
-                My journey into web development started from curiosity about how websites are built and styled. I enjoy learning through experimentation, solving small design challenges, and building projects that gradually improve both my coding and creative thinking skills.
+                I’m a creative developer with a growing love for building digital experiences that feel thoughtful, polished, and visually intentional.
             </p>
 
-        </section>
+            <p>
+                My work blends frontend development, design thinking, and creative problem-solving — turning ideas into clean, expressive, and functional web experiences.
+            </p>
+
+            <div class="about-images">
+             <img src="images/about.png.jpeg" alt="Dorcas portrait" class="about-main-img">
+              <img src="images/style1.png.jpeg" alt="Dorcas style portrait" class="about-small-img">
+            </div>
+
+            <a href="#contact" class="about-link">Let’s Connect →</a>
+        </div>
+
+    </div>
+
+</section>
 
 
 
@@ -89,48 +138,64 @@
 
         <!-- Skills Section -->
 
-        <section id="skills">
+    <section id="skills" class="skills-section">
 
-            <h2>Skills</h2>
+    <h2 class="skills-bg">TOOLS</h2>
 
+    <span class="section-label">SKILLS</span>
 
+    <h2>Tools I use to build clean, creative digital work.</h2>
 
-            <div>
+    <div class="skills-divider"></div>
 
-                <h3>HTML</h3>
-
-                <p>
-                    Creating structured, semantic, and accessible webpage layouts using modern HTML practices.
-                </p>
-
-            </div>
+    <div class="skills-grid">
 
 
+    <div class="skill-card">
+        <span>01</span>
+        <h3>HTML</h3>
+        <p>Semantic structure, accessibility, and clean content architecture.</p>
+        <small>→ Foundations</small>
+    </div>
 
-            <div>
+    <div class="skill-card">
+        <span>02</span>
+        <h3>CSS</h3>
+        <p>Responsive layouts, typography, spacing, and visual styling.</p>
+        <small>→ Design Systems</small>
+    </div>
 
-                <h3>CSS</h3>
+    <div class="skill-card">
+        <span>03</span>
+        <h3>GitHub</h3>
+        <p>Version control, documentation, deployment, and project tracking.</p>
+        <small>→ Collaboration</small>
+    </div>
 
-                <p>
-                    Designing visually appealing interfaces through color palettes, spacing, typography, and responsive layouts.
-                </p>
+    <div class="skill-card">
+        <span>04</span>
+        <h3>Responsive Design</h3>
+        <p>Building seamless experiences across desktop, tablet, and mobile.</p>
+        <small>→ User Experience</small>
+    </div>
 
-            </div>
+    <div class="skill-card">
+        <span>05</span>
+        <h3>UI / UX</h3>
+        <p>Designing interfaces with clarity, hierarchy, and usability in mind.</p>
+        <small>→ Creative Thinking</small>
+    </div>
 
+    <div class="skill-card">
+        <span>06</span>
+        <h3>JavaScript</h3>
+        <p>Currently expanding my skills in interactive and dynamic web development.</p>
+        <small>→ In Progress</small>
+    </div>
 
+</div>
 
-            <div>
-
-                <h3>GitHub</h3>
-
-                <p>
-                    Documenting projects, tracking progress, and building a portfolio that reflects my learning journey as a developer.
-                </p>
-
-            </div>
-
-        </section>
-
+</section>
 
 
 
