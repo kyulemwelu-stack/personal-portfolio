@@ -796,3 +796,104 @@ nav ul li:hover {
     text-transform:uppercase;
     color:#C6A181;
 }
+
+/* =========================
+   MOBILE RESPONSIVE
+========================= */
+
+@media (max-width: 768px){
+
+    /* Navigation */
+
+    nav{
+        padding:1rem 5%;
+    }
+
+    nav ul{
+        gap:1rem;
+        flex-wrap:wrap;
+        justify-content:center;
+    }
+
+    /* Hero */
+
+    .hero-box{
+        grid-template-columns:1fr;
+        gap:3rem;
+    }
+
+    .hero-left{
+        text-align:center;
+    }
+
+    .hero-buttons{
+        justify-content:center;
+        flex-wrap:wrap;
+    }
+
+    .image-frame{
+        width:320px;
+        height:430px;
+        margin:auto;
+    }
+
+    /* About */
+
+    .about-wrapper{
+        grid-template-columns:1fr;
+        gap:3rem;
+    }
+
+    .about-left h2{
+        font-size:3rem;
+    }
+
+    /* Skills */
+
+    .skills-grid{
+        grid-template-columns:1fr;
+    }
+
+    /* Projects */
+
+    .project-row,
+    .project-row.reverse{
+        grid-template-columns:1fr;
+        direction:ltr;
+        gap:2rem;
+    }
+
+    .project-content h3{
+        font-size:2.5rem;
+    }
+
+    /* Contact */
+
+    .contact-heading{
+        font-size:3rem;
+    }
+
+    .contact-links{
+        flex-direction:column;
+        align-items:flex-start;
+    }
+
+    /* Footer */
+
+    .footer-content{
+        flex-direction:column;
+        gap:1rem;
+        text-align:center;
+    }
+
+    /* Background Words */
+
+    .bg-title,
+    .skills-bg,
+    .projects-bg,
+    .contact-bg{
+        font-size:4rem;
+        letter-spacing:0.2rem;
+        opacity:0.08;
+    }
+}
