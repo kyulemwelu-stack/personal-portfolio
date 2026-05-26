@@ -932,4 +932,25 @@ nav ul li:hover {
     gap:1rem;
     text-align:center;
   }
+
+  .about-images{
+    position:static;
+    height:auto;
+    display:flex;
+    flex-direction:column;
+    gap:1.5rem;
+    align-items:center;
+}
+
+.about-main-img{
+    position:static;
+    width:280px;
+    height:auto;
+}
+
+.about-small-img{
+    position:static;
+    width:220px;
+    height:auto;
+}
 }
