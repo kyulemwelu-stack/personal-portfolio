@@ -766,6 +766,29 @@ nav ul li:hover {
     color: #9C6342;
 }
 
+.about-section,
+.contact-section{
+    position:relative;
+}
+
+.about-floral{
+    position:absolute;
+    right:5%;
+    bottom:8%;
+    width:170px;
+    opacity:0.12;
+    pointer-events:none;
+}
+
+.contact-floral{
+    position:absolute;
+    left:5%;
+    bottom:35px;
+    width:150px;
+    opacity:0.08;
+    pointer-events:none;
+}
+
 .footer{
     background:#492215;
     padding:0 6% 2rem;
